@@ -1,0 +1,190 @@
+
+/* Header Navigation */
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+#left-nav {
+    margin-left: -30px;
+
+}
+
+.top-nav {
+    margin-top: -10px;
+
+}
+
+
+/* Nav-bar broken up into 2 divs */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 13px;
+    font-family: arial;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* GRID */
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1.1fr 1fr 50px 50px auto;
+
+}
+
+/* Body */
+
+.image {
+    margin-bottom: 25px;
+
+}
+
+.placeholder {
+    height: 50px;
+    width: 50px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Search Bar */
+
+.search {
+    width: 435px;
+    height: 34px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 15px;
+
+}
+
+.search:focus {
+    outline: none;
+
+}
+
+.search-bar-container {
+    width: 475px;
+    height: 42px;
+    border: 1px solid rgba(196, 191, 191, 0.5);
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.search-bar-container:hover {
+    box-shadow: 2px 4px 4px rgba(0,0,0,0.1); 
+}
+
+.microphone {
+    height: 32px;
+    width: 28px;
+    margin-right: 15px;
+    margin-top: 3px;
+    border-radius: 3px;
+
+}
+
+/* .search:active {
+    border: none;
+}
+*/
+
+/* Buttons */
+
+.button {
+    height: 36px;
+    min-width: 54px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-family: arial;
+    font-size: 14px;
+    margin: 11px 4px; 
+    margin-top: 25px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.button:focus {
+    outline: none;
+
+}
+
+/* Images */
+
+.apps {
+    height: 27px;
+    width: 27px;
+}
+
+.google-user {
+    height: 35px;
+    width: 35px;
+    margin-left: 8px;
+
+}
+
+/* Footer */
+
+.footer {
+    background-color: #f2f2f2;
+    height: 45px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bottom-nav {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.placeholder-link {
+    margin-right: 40px;
+}
+
+/* Bottom List Item IDs
+
+#test {
+  margin-bottom: 5px;
+
+}
+
+*/
